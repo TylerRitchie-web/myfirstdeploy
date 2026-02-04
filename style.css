@@ -1,5 +1,5 @@
 html, body{
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 body{
@@ -13,8 +13,10 @@ body{
     height: 100vh;
 }
 button{
-    padding: 12px 24px;
+    padding: 16px 32px;
     font-size: 16px;
+    margin: 0 8px;
+    flex-shrink: 0;
 }
 .buttons{
     position: fixed;
@@ -23,6 +25,7 @@ button{
     transform: translate(-50%, -50%);
     text-align: center;
     display: flex;
+    font-size: 100px;
 }
 a{
     text-decoration: none;
@@ -31,6 +34,8 @@ h1{
     color: rgb(255, 0, 0);
     -webkit-text-stroke: 0.5px black;
     font-family: "Valentine", cursive;
+    flex-shrink: 0;
+    transform: translateY(-60px);
 }
 @font-face {
     font-family: "Valentine";
@@ -42,6 +47,7 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    gap: 40px;
 }
 .yes:hover{
     color: rgb(30, 255, 0);
