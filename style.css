@@ -11,6 +11,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    height: 100svh;
 }
 button{
     padding: 12px 24px;
