@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url("bg.valentine.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 0 8px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 0.5px black;
+    font-family: "Valentine", cursive;
+}
+@font-face {
+    font-family: "Valentine";
+    src: url(./fonts/Valentine.otf) format("truetype");
+}
+.group{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.yes:hover{
+    color: rgb(30, 255, 0);
+}
+.no:hover{
+    color: rgb(255, 0, 0);
+}
